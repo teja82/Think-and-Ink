@@ -1,6 +1,4 @@
-Flask==2.3.2
-Flask-Cors==4.0.0
-gunicorn==21.2.0
+streamlit==1.33.0
 transformers==4.39.3
 torch==2.2.1
 scikit-learn==1.4.2
