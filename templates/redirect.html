@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Think and Ink - Try and Ink</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0A1828;
+      color: #BFA181;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      padding: 20px;
+      background-color: #178582;
+    }
+    nav a {
+      color: #BFA181;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .button-container {
+      margin-top: 50px;
+    }
+    .try-btn {
+      background-color: #29dad4;
+      color: #0A1828;
+      border: none;
+      font-size: 24px;
+      padding: 15px 30px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      margin: 15px;
+      animation: pop 1.5s infinite;
+    }
+    .try-btn:hover {
+      background-color: #BFA181;
+      color: #0A1828;
+    }
+    .content-section {
+      display: none; /* Hide all sections initially */
+      margin-top: 20px;
+    }
+    .active {
+      display: block; /* Show the active section */
+    }
+    @keyframes pop {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+    }
+    .bottom-centre-image {
+      position: absolute;
+      bottom: 10px;  /* 20px from the bottom of the page */
+      left: 40%;  /* 20px from the left side */
+      width: 20%;  /* Set the width to 20% of the container */
+      max-width: 300px;  /* Limit the max width */
+      border-radius: 15px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="feedback.html">Feedback</a>
+  </nav>
+
+  <h1>Choose Your Writing Style</h1>
+
+  <div class="button-container">
+    <a href="http://localhost:8501" target="_blank"><button class="try-btn">Debate</button></a>
+    <a href="http://localhost:8502" target="_blank"><button class="try-btn">Story Writing</button></a>
+    <a href="http://localhost:8503" target="_blank"><button class="try-btn">Blog Writing</button></a>
+  </div>
+
+</body>
+</html>

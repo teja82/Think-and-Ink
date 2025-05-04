@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Think and Ink - Feedback</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0A1828;
+      color: #BFA181;
+    }
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      padding: 20px;
+      background-color: #146b68;
+    }
+    nav a {
+      color: #BFA181;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .content {
+      padding: 40px;
+      text-align: center;
+    }
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    input, textarea, button {
+      font-size: 16px;
+      padding: 10px;
+      border: 1px solid #BFA181;
+      border-radius: 5px;
+      background-color: #0A1828;
+      color: #BFA181;
+    }
+    button {
+      background-color: #17e2dbda;
+      color: #0A1828;
+      font-weight: bold;
+      cursor: pointer;
+      border: none;
+    }
+    button:hover {
+      background-color: #BFA181;
+      color: #0A1828;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="feedback.html">Feedback</a>
+  </nav>
+
+  <div class="content">
+    <h1>We Value Your Feedback</h1>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="4" placeholder="Your Feedback" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

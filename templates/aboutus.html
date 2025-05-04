@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Think and Ink - About Us</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0A1828;
+      color: #BFA181;
+    }
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      padding: 20px;
+      background-color: #178582;
+    }
+    nav a {
+      color: #BFA181;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .content {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .content h1 {
+      font-size: 36px;
+      color: #BFA181;
+    }
+    .project-bio {
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    .contributors {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 contributors per row initially */
+      gap: 40px;
+      margin-top: 40px;
+      justify-items: center; /* Center all items in the grid */
+    }
+
+    /* For the second row with 2 contributors, align them to center */
+    .contributors .contributor:nth-child(4),
+    .contributors .contributor:nth-child(5) {
+      grid-column: span 1; /* Ensure both contributors in the second row only take 1 column each */
+      justify-self: right,center; /* Center both contributors */
+    }
+
+    @media (max-width: 768px) {
+      .contributors {
+        grid-template-columns: repeat(2, 1fr); /* 2 contributors per row on smaller screens */
+      }
+    }
+
+    @media (max-width: 480px) {
+      .contributors {
+        grid-template-columns: 1fr; /* 1 contributor per row on very small screens */
+      }
+    }
+
+    .contributor {
+      text-align: center;
+      position: relative;
+      width: 100%;
+      margin-bottom: 30px;
+      transition: transform 0.3s ease;
+    }
+    .contributor:hover {
+      transform: scale(1.05); /* Hover effect to scale */
+    }
+
+    /* Image Styling */
+    .contributor img {
+      width: 250px; /* Increased size */
+      height: 250px; /* Increased size */
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #178582;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+    .contributor:hover img {
+      transform: scale(1.1); /* Zoom effect when hovered */
+    }
+
+    /* Bio Box Styling */
+    .bio-box {
+      background-color: #178582;
+      color: #0A1828;
+      padding: 30px; /* Increased padding */
+      border-radius: 10px;
+      font-size: 18px; /* Increased font size */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      margin-top: -40px; /* Adjust to balance the image */
+      position: relative;
+    }
+    .role {
+      font-weight: bold;
+      margin-bottom: 15px; /* Adjusted spacing */
+    }
+    .linkedin-btn {
+      display: inline-block;
+      padding: 10px 20px; /* Increased padding for better button appearance */
+      background-color: #BFA181;
+      color: #0A1828;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    .linkedin-btn:hover {
+      background-color: #987A5E;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="feedback.html">Feedback</a>
+  </nav>
+
+  <div class="content">
+    <h1>About Think and Ink</h1>
+    <p class="project-bio">
+      "Think and Ink" is designed to help people improve their soft skills through writing. 
+      Whether it's writing articles, creating poetry, engaging in debates with an AI companion, 
+      or enhancing communication skills, this platform is built to foster creativity and learning.
+    </p>
+
+    <h2>Meet Our Contributors</h2>
+    <div class="contributors">
+      <div class="contributor">
+        <img src="..\images\vardhan.jpg" alt="Contributor 1"> <!-- Ensure correct path -->
+        <div class="bio-box">
+          <p class="role">Frontend Developer</p>
+          <p>Passionate about developing writing assistants and improving AI technologies.</p>
+          <a href="https://www.linkedin.com/in/sai-vardhan-byatha-a9a4a22b3/" class="linkedin-btn" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+      <div class="contributor">
+        <img src="..\images\teja.jpg" alt="Contributor 2"> <!-- Ensure correct path -->
+        <div class="bio-box">
+          <p class="role">Backend Developer</p>
+          <p>Backend expert working on seamless AI integration and database handling.</p>
+          <a href="https://www.linkedin.com/in/challa-teja-3982991b9/" class="linkedin-btn" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+      <div class="contributor">
+        <img src="..\images\rama.jpg" alt="Contributor 3"> <!-- Ensure correct path -->
+        <div class="bio-box">
+          <p class="role">Testing and Validation</p>
+          <p>Frontend developer and UI/UX designer. Focuses on creating user-friendly experiences.</p>
+          <a href="https://www.linkedin.com/in/rama-krishna-chakali-178929321/" class="linkedin-btn" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+
+      <!-- Second row with 2 contributors, aligned to center -->
+      <div class="contributor">
+        <img src="..\images\chandana.jpg" alt="Contributor 4"> <!-- Ensure correct path -->
+        <div class="bio-box">
+          <p class="role">Content Strategist</p>
+          <p>Ensures a rich and engaging writing experience for all users.</p>
+          <a href="https://www.linkedin.com/in/contributor4" class="linkedin-btn" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+      <div class="contributor">
+        <img src="..\images\tharuni.jpg" alt="Contributor 5"> <!-- Ensure correct path -->
+        <div class="bio-box">
+          <p class="role">Resource Manager</p>
+          <p>Optimizing AI-driven writing evaluations to enhance learning experiences.</p>
+          <a href="https://www.linkedin.com/in/contributor5" class="linkedin-btn" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
