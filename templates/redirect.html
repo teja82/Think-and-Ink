@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Think and Ink - Try and Ink</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #4B0082;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      padding: 20px;
+      background-color: #800080;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      margin-top: 40px;
+      font-size: 36px;
+      color: #4B0082;
+    }
+
+    .button-container {
+      margin-top: 40px;
+    }
+
+    .try-btn {
+      background-color: #800080;
+      color: #ffffff;
+      border: none;
+      font-size: 22px;
+      padding: 15px 30px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      margin: 15px;
+      animation: pop 1.5s infinite;
+      transition: background-color 0.3s ease;
+    }
+
+    .try-btn:hover {
+      background-color: #4B0082;
+    }
+
+    @keyframes pop {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="/">Home</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="feedback.html">Feedback</a>
+  </nav>
+
+  <h1>Choose Your Writing Style</h1>
+
+  <div class="button-container">
+    <button class="try-btn" onclick="startApp('/start_debate', 'http://localhost:8502')">Debate</button>
+    <button class="try-btn" onclick="startApp('/start_story', 'http://localhost:8503')">Story Writing</button>
+    <button class="try-btn" onclick="startApp('/start_blog', 'http://localhost:8501')">Blog Writing</button>
+  </div>
+
+  <script>
+    function startApp(startRoute, redirectUrl) {
+      fetch(startRoute)
+        .then(() => window.open(redirectUrl, '_blank'))
+        .catch(err => alert("Error starting app: " + err));
+    }
+  </script>
+
+</body>
+</html>

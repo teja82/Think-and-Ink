@@ -1,0 +1,21 @@
+# Streamlit App + Core Libraries
+streamlit==1.33.0
+flask==3.0.2
+
+# Language Models
+transformers==4.39.3
+torch==2.2.1
+
+# Data Science
+scikit-learn==1.4.2
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.8.4
+joblib==1.4.2
+
+# HTTP Requests
+requests==2.31.0
+
+# Additional Tools
+pygments==2.17.2
+pylint==3.1.0
