@@ -16,7 +16,7 @@ Whether you're journaling your next big idea 💡, scribbling poetry 🌸, or ju
 
 ⚡ Blazingly Fast – Built with Streamlit, so it’s light, sleek, and lightning-quick.
 
-## **🗂️ What’s Inside the Box?**
+## **📂 Project Structure**
 
 Think-and-Ink/<br>
 │<br>
@@ -28,6 +28,20 @@ Think-and-Ink/<br>
 ├── app.py<br>            → Your main gateway to creativity 💡
 ├── index.html<br>        → Landing page design
 └── requirements.txt<br>  → Spells to install everything you need 📦
+
+## 💼 **What’s Inside?**
+
+| File                    | Purpose                                                                  
+|-------------------------|---------------------------------------------------
+| `.streamlit/ `          | Streamlit configs to keep your app pretty ✨
+| `.vscode/`              | VSCode workspace settings
+| `requirements.txt`      | Python files for backend logic
+| `static/`               | Images, styles, and other eye candy 🎨
+| `templates/`            | HTML structure for rendering the app
+| `app.py`                | Your main gateway to creativity 💡
+| `index.html`            | Landing page design
+| `requirements.txt`      | Spells to install everything you need 📦
+
 
 ## **🤝 Want to Collaborate?**
 We love minds that tinker!
