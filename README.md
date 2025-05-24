@@ -18,16 +18,16 @@ Whether you're journaling your next big idea 💡, scribbling poetry 🌸, or ju
 
 ## **🗂️ What’s Inside the Box?**
 
-Think-and-Ink/
-│
-├── .streamlit/       → Streamlit configs to keep your app pretty ✨
-├── .vscode/          → VSCode workspace settings
-├── backend/          → Python files for backend logic
-├── static/           → Images, styles, and other eye candy 🎨
-├── templates/        → HTML structure for rendering the app
-├── app.py            → Your main gateway to creativity 💡
-├── index.html        → Landing page design
-└── requirements.txt  → Spells to install everything you need 📦
+Think-and-Ink/<br>
+│<br>
+├── .streamlit/<br>       → Streamlit configs to keep your app pretty ✨
+├── .vscode/<br>          → VSCode workspace settings
+├── backend/<br>          → Python files for backend logic
+├── static/<br>           → Images, styles, and other eye candy 🎨
+├── templates/<br>        → HTML structure for rendering the app
+├── app.py<br>            → Your main gateway to creativity 💡
+├── index.html<br>        → Landing page design
+└── requirements.txt<br>  → Spells to install everything you need 📦
 
 ## **🤝 Want to Collaborate?**
 We love minds that tinker!
