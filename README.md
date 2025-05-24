@@ -19,15 +19,15 @@ Whether you're journaling your next big idea 💡, scribbling poetry 🌸, or ju
 ## **📂 Project Structure**
 
 Think-and-Ink/<br>
-│<br>
+│
 ├── .streamlit/       
-├── .vscode/<br>          
-├── backend/<br>          
-├── static/<br>           
-├── templates/<br>        
-├── app.py<br>            
-├── index.html<br>        
-└── requirements.txt<br>  
+├── .vscode/          
+├── backend/          
+├── static/           
+├── templates/        
+├── app.py            
+├── index.html        
+└── requirements.txt  
 
 ## 💼 **What’s Inside?**
 
