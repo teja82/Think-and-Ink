@@ -7,7 +7,7 @@ Think-and-Ink is your digital thought sanctuary — a minimalist note-taking and
 
 Whether you're journaling your next big idea 💡, scribbling poetry 🌸, or just writing to clear your mind 🌙 — Think-and-Ink offers you the canvas.
 
-## **🚀 Features at a Glance**
+## **🚀 Features at a Glance **
 🧠 Intuitive Writing Zone – Simple UI that helps you focus on your words, not buttons.
 
 🔄 Real-Time Updates – No save button. Your thoughts live and breathe with you.
@@ -16,7 +16,7 @@ Whether you're journaling your next big idea 💡, scribbling poetry 🌸, or ju
 
 ⚡ Blazingly Fast – Built with Streamlit, so it’s light, sleek, and lightning-quick.
 
-## **🗂️ What’s Inside the Box?**
+## **🗂️ What’s Inside the Box? **
 
 Think-and-Ink/
 │
