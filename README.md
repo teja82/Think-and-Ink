@@ -20,14 +20,14 @@ Whether you're journaling your next big idea 💡, scribbling poetry 🌸, or ju
 
 Think-and-Ink/<br>
 │<br>
-├── .streamlit/<br>       → Streamlit configs to keep your app pretty ✨
-├── .vscode/<br>          → VSCode workspace settings
-├── backend/<br>          → Python files for backend logic
-├── static/<br>           → Images, styles, and other eye candy 🎨
-├── templates/<br>        → HTML structure for rendering the app
-├── app.py<br>            → Your main gateway to creativity 💡
-├── index.html<br>        → Landing page design
-└── requirements.txt<br>  → Spells to install everything you need 📦
+├── .streamlit/<br>       
+├── .vscode/<br>          
+├── backend/<br>          
+├── static/<br>           
+├── templates/<br>        
+├── app.py<br>            
+├── index.html<br>        
+└── requirements.txt<br>  
 
 ## 💼 **What’s Inside?**
 
