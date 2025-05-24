@@ -169,9 +169,9 @@
 <body>
 
   <nav>
-    <a href="{{ url_for('index') }}">Home</a>
-    <a href="{{ url_for('about_us') }}">About Us</a>
-    <a href="{{ url_for('feedback') }}">Feedback</a>
+    <a href="/">Home</a>
+    <a href="about_us">About Us</a>
+    <a href="feedback_">Feedback</a>
   </nav>
 
   <div class="heading-container">
@@ -181,9 +181,9 @@
   </div>
 
   <div class="image-container">
-    <img src="{{ url_for('static', filename='images/img1.webp') }}" alt="Main Image">
-    <img src="{{ url_for('static', filename='images/img2.webp') }}" alt="Bottom Centre Image">
-    <img src="{{ url_for('static', filename='images/img3.webp') }}" alt="Top Left Image">
+    <img src="{{ url_for('static', filename='home/img1.webp') }}" alt="Main Image">
+    <img src="{{ url_for('static', filename='home/img2.webp') }}" alt="Bottom Centre Image">
+    <img src="{{ url_for('static', filename='home/img3.webp') }}" alt="Top Left Image">
   </div>
 
   <section class="why-section">

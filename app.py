@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 import subprocess
+import os
 
 app = Flask(__name__)
 
@@ -15,7 +16,7 @@ def writing_styles():
 def about_us():
     return render_template("aboutus.html")
 
-@app.route("/feedback")
+@app.route("/feedback_")
 def feedback():
     return render_template("feedback.html")
 
@@ -34,5 +35,6 @@ def start_story():
     subprocess.Popen(["streamlit", "run", "backend/story.py", "--server.port=8503"])
     return "Story app started on port 8503"
 
+# ✅ Correct Render-compatible run block
 if __name__ == "__main__":
     app.run(debug=True)
