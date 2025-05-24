@@ -20,7 +20,7 @@ Whether you're journaling your next big idea 💡, scribbling poetry 🌸, or ju
 
 Think-and-Ink/<br>
 │<br>
-├── .streamlit/<br>       
+├── .streamlit/       
 ├── .vscode/<br>          
 ├── backend/<br>          
 ├── static/<br>           
