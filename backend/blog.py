@@ -5,7 +5,7 @@ from pygments.util import ClassNotFound
 from pylint.lint import Run as lint
 
 # Configure Gemini API for natural language explanations
-genai.configure(api_key="AIzaSyCm3qaVkadN1jYvU13oEOOKMe-UkaAx13Q")  
+genai.configure(api_key="YOUR_API_ID")  
 model = genai.GenerativeModel('models/gemini-2.0-flash')
 
 # Define the context for code explanation
