@@ -18,7 +18,7 @@ Whether you're journaling your next big idea 💡, scribbling poetry 🌸, or ju
 
 ## **📂 Project Structure**
 
-Think-and-Ink/
+Think-and-Ink/<br>
 │<br>
 ├── .streamlit/       
 ├── .vscode/          
